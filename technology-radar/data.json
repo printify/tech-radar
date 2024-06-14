@@ -1,0 +1,536 @@
+[
+  {
+    "name": "AWS",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Primary infrastructure platform used for a majority of our services, offering scalability, reliability, and a wide range of cloud services including computing, storage, and databases."
+  },
+  {
+    "name": "Kubernetes",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Core platform for deploying and managing containerized applications, enabling efficient orchestration, scaling, and management of microservices across clusters."
+  },
+  {
+    "name": "Jenkins",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "description": "Legacy CI tool being phased out in favor of more modern solutions such as CircleCI and GitHub Actions, due to its complexity and maintenance overhead."
+  },
+  {
+    "name": "GitHub source control",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Essential for source code management and collaboration, providing version control, code review, and project management features to streamline development workflows."
+  },
+  {
+    "name": "GitHub Actions",
+    "ring": "Assess",
+    "quadrant": "Platforms",
+    "description": ""
+  },
+  {
+    "name": "GitHub Copilot",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "description": ""
+  },
+  {
+    "name": "ChatGPT",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "description": ""
+  },
+  {
+    "name": "Factory.ai",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "description": ""
+  },
+  {
+    "name": "CircleCI",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "description": "CI & CD platform under evaluation to replace Jenkins and GitHub Actions, offering streamlined pipelines, advanced features, and better integration with our existing tools."
+  },
+  {
+    "name": "Prometheus stack",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Key platform for observability and monitoring, providing powerful metrics collection, querying, and alerting capabilities to ensure system reliability and performance."
+  },
+  {
+    "name": "Elasticsearch",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "description": "Will be deprecated as we move to NCP. Widely used for logging, visualization, and analytics, the ELK stack (Elasticsearch, Filebeat, Kibana) helps in centralized logging, real-time analysis, and operational intelligence."
+  },
+  {
+    "name": "Filebeat",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "description": "Will be deprecated as we move to NCP. Widely used for logging, visualization, and analytics, the ELK stack (Elasticsearch, Filebeat, Kibana) helps in centralized logging, real-time analysis, and operational intelligence."
+  },
+  {
+    "name": "Kibana",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "description": "Will be deprecated as we move to NCP. Widely used for logging, visualization, and analytics, the ELK stack (Elasticsearch, Filebeat, Kibana) helps in centralized logging, real-time analysis, and operational intelligence."
+  },
+  {
+    "name": "MongoDB",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "description": "Transitioning away due to high infrastructure costs at scale, with PostgreSQL and other solutions being adopted for their lower cost and better scalability."
+  },
+  {
+    "name": "Snowflake",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Primary data warehouse platform, offering high performance, scalability, and ease of use for big data analytics and complex queries across large datasets."
+  },
+  {
+    "name": "Elastic Stack",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Comprehensive tool for searching, analyzing, and visualizing data in real time, aiding in quick insights and operational efficiencies through its powerful search capabilities."
+  },
+  {
+    "name": "Redis",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Preferred for in-memory data structure store and caching, providing lightning-fast data access, real-time analytics, and session management."
+  },
+  {
+    "name": "PostgreSQL",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Main database platform replacing MongoDB and MySQL, known for its robustness, scalability, and support for advanced data types and indexing, crucial for our data-intensive applications."
+  },
+  {
+    "name": "Kafka",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Being evaluated for event streaming and real-time data processing, promising to enhance our data pipelines, real-time analytics, and integration capabilities across services."
+  },
+  {
+    "name": "Segment",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "description": "Under trial for customer data platform needs, aiming to streamline data collection, integration, and management across various marketing and analytics tools."
+  },
+  {
+    "name": "Optimizely",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": ""
+  },
+  {
+    "name": "Heap",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": ""
+  },
+  {
+    "name": "Looker",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Evaluating for data analytics and business intelligence, offering powerful data visualization, exploration, and reporting capabilities to empower data-driven decision-making."
+  },
+  {
+    "name": "Lambda",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "description": "Being assessed for serverless computing solutions, which could offer reduced operational overhead, automatic scaling, and cost-effective execution for event-driven applications."
+  },
+  {
+    "name": "Temporal",
+    "ring": "Trial",
+    "quadrant": "Platforms",
+    "description": "Platform under evaluation for managing workflows across our microservices architecture, promising improved reliability, state management, and scalability for complex application logic."
+  },
+  {
+    "name": "MySQL",
+    "ring": "Hold",
+    "quadrant": "Platforms",
+    "description": "We are moving away from MySQL in favor of more scalable and cost-effective database solutions, with PostgreSQL as the primary replacement due to its advanced features and performance."
+  },
+  {
+    "name": "Grafana stack ",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "Grafana, Loki, Tempo, Grafana Agent etc"
+  },
+  {
+    "name": "Cloudflare",
+    "ring": "Adopt",
+    "quadrant": "Platforms",
+    "description": "DDoS protection, WAF, rate limiting, caching etc."
+  },
+  {
+    "name": "Helm",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": "<p><strong><a href=\"http://helm.sh/\">Helm</a></strong> is a package manager for <a href=\"/radar/platforms/kubernetes\">Kubernetes</a>. It comes with a repository of curated Kubernetes applications that are maintained in the official <a href=\"https://github.com/helm/charts\">Charts repository</a>. Since we last talked about Helm, Helm 3 has been released, and the most significant change is the removal of Tiller, the server-side component of Helm 2. The benefit of a design without Tiller is that you can only make changes to the Kubernetes cluster from the client side, that is, you can only modify the cluster according to the permissions you have as a user of the Helm command. We've used Helm in a number of client projects and its dependency management, templating and hook mechanism has greatly simplified the application lifecycle management in Kubernetes.</p>"
+  },
+  {
+    "name": "Airflow",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": "<p><strong><a href=\"https://airflow.apache.org/\">Airflow</a></strong> remains our most widely used and favorite open-source workflow management tool for data-processing pipelines as directed acyclic graphs (DAGs). This is a growing space with open-source tools such as <a href=\"https://github.com/spotify/luigi\">Luigi</a> and <a href=\"https://github.com/argoproj/argo\">Argo</a> and vendor-specific tools such as <a href=\"https://azure.microsoft.com/en-us/services/data-factory/\">Azure Data Factory</a> or <a href=\"https://aws.amazon.com/datapipeline/\">AWS Data Pipeline</a>. However, Airflow differentiates itself with its programmatic definition of workflows over limited low-code configuration files, support for automated testing, open-source and multiplatform installation, rich set of integration points to the data ecosystem and large community support. In decentralized data architectures such as <a href=\"/radar/techniques/data-mesh\">data mesh</a>, however, Airflow currently falls short as a centralized workflow orchestration.</p>"
+  },
+  {
+    "name": "Traefik",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": "Used as internal http router inside Kubernetes environments as Ingress controller."
+  },
+  {
+    "name": "Keycloak",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "description": ""
+  },
+  {
+    "name": "Dependabot",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": "Dependency and vulnerability management in third party libraries."
+  },
+  {
+    "name": "Renovatebot",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": "Dependency and vulnerability management in third party libraries."
+  },
+  {
+    "name": "Sentry",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": "<p><strong><a href=\"https://sentry.io/\">Sentry</a></strong> is a cross-platform application monitoring tool with a focus on error reporting. Tools like Sentry distinguish themselves from traditional logging solutions such as the <a href=\"https://www.elastic.co/elk-stack\">ELK Stack</a> in their focus on discovering, investigating and fixing errors. Sentry has been around for a while and supports several languages and frameworks. We've used Sentry in many projects, and it has been really useful in tracking errors, finding out if a commit actually fixed an issue and alerting us if an issue resurfaces due to a regression.</p>"
+  },
+  {
+    "name": "Terraform",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": "Infrastructure automation to provision and manage resources in any cloud or data center."
+  },
+  {
+    "name": "Terragrunt",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": "Terragrunt is a thin wrapper that provides extra tools for keeping your configurations DRY, working with multiple Terraform modules, and managing remote state."
+  },
+  {
+    "name": "Chaos Monkey",
+    "ring": "Assess",
+    "quadrant": "Tools",
+    "description": ""
+  },
+  {
+    "name": "Hashicorp Vault",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": ""
+  },
+  {
+    "name": "K8s Operators",
+    "ring": "Hold",
+    "quadrant": "Tools",
+    "description": ""
+  },
+  {
+    "name": "Skaffold",
+    "ring": "Hold",
+    "quadrant": "Tools",
+    "description": "Was used from SRE side as local environment tool but was deprecated in favour of kitt-cli. Should be removed unless it's used for some other reason."
+  },
+  {
+    "name": "Angular",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A popular front-end web application framework for building dynamic single-page applications."
+  },
+  {
+    "name": "TypeScript",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A statically typed superset of JavaScript that enhances code quality, maintainability and development speed."
+  },
+  {
+    "name": "RxJS",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "Library for reactive programming using Observables, to make it easier to compose asynchronous or callback-based code."
+  },
+  {
+    "name": "Storybook",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "An open-source tool for developing UI components in isolation, enabling better testing and documentation."
+  },
+  {
+    "name": "Canvas",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "An HTML5 element used for drawing graphics via scripting (usually JavaScript)."
+  },
+  {
+    "name": "3D rendering WebGL",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A JavaScript API for rendering interactive 3D graphics within any compatible web browser without plugins."
+  },
+  {
+    "name": "Node.js",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A runtime environment that allows for server-side scripting using JavaScript, facilitating scalable network applications."
+  },
+  {
+    "name": "Jasmine",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A behavior-driven development framework for testing JavaScript code, offering a clean and easy-to-read syntax."
+  },
+  {
+    "name": "Karma",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A test runner that fits into a continuous integration workflow, enabling real-time feedback on code changes."
+  },
+  {
+    "name": "SCSS",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A preprocessor scripting language that is interpreted or compiled into CSS, offering more powerful styling capabilities."
+  },
+  {
+    "name": "Symfony",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A PHP framework for web applications and a set of reusable PHP components, facilitating rapid development."
+  },
+  {
+    "name": "Doctrine",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "An object-relational mapping (ORM) library for PHP that provides transparent persistence for PHP objects."
+  },
+  {
+    "name": "PHP",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A widely-used open source scripting language especially suited for web development and embedded into HTML."
+  },
+  {
+    "name": "Scala",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A high-level programming language that combines object-oriented and functional programming paradigms."
+  },
+  {
+    "name": "SQL",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A standard language for managing and manipulating relational databases, essential for database interactions."
+  },
+  {
+    "name": "Python",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A versatile, high-level programming language known for its readability and broad applicability in various domains."
+  },
+  {
+    "name": "JavaScript",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "On hold as this is being replaced by TypeScript"
+  },
+  {
+    "name": "Golang",
+    "ring": "Assess",
+    "quadrant": "Languages and Frameworks",
+    "description": "A statically typed, compiled programming language designed for simplicity and efficiency, popular for backend development."
+  },
+  {
+    "name": "Babylon.js",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A powerful, open-source 3D engine based on WebGL, enabling the creation of complex 3D scenes in the browser."
+  },
+  {
+    "name": "WebGPU",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": ""
+  },
+  {
+    "name": "Laravel",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A PHP framework for web artisans, providing an elegant syntax and tools for rapid web application development."
+  },
+  {
+    "name": "Backbone",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A lightweight JavaScript library adding structure to web applications by providing models, collections, and views."
+  },
+  {
+    "name": "Jupyter Notebook",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "An open-source web application that allows the creation and sharing of documents containing live code, equations, visualizations, and narrative text."
+  },
+  {
+    "name": "EJS",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A simple templating language that lets you generate HTML markup with plain JavaScript."
+  },
+  {
+    "name": "Rust",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A systems programming language focused on safety, speed, and concurrency."
+  },
+  {
+    "name": "Handlebars",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A popular templating engine that allows you to build semantic templates effectively."
+  },
+  {
+    "name": "Groovy",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "An agile and dynamic language for the Java platform aimed at improving developer productivity."
+  },
+  {
+    "name": "LookML",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "A language for describing dimensions, aggregates, calculations, and data relationships in SQL databases."
+  },
+  {
+    "name": "Java",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible."
+  },
+  {
+    "name": "PLpgSQL",
+    "ring": "Assess",
+    "quadrant": "Languages and Frameworks",
+    "description": "A procedural language supported by PostgreSQL for writing functions and trigger procedures."
+  },
+  {
+    "name": "Lua",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A lightweight, high-level, multi-paradigm programming language designed primarily for embedded use in applications."
+  },
+  {
+    "name": "Ruby",
+    "ring": "Hold",
+    "quadrant": "Languages and Frameworks",
+    "description": "A dynamic, open source programming language with a focus on simplicity and productivity."
+  },
+  {
+    "name": "Flutter",
+    "ring": "Trial",
+    "quadrant": "Languages and Frameworks",
+    "description": "Flutter is an open-source UI software development toolkit by Google for building natively compiled applications for mobile, web, and desktop from a single codebase."
+  },
+  {
+    "name": "Microservices",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "description": ""
+  },
+  {
+    "name": "CQRS/ES",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "description": ""
+  },
+  {
+    "name": "OOP design",
+    "ring": "Adopt",
+    "quadrant": "Techniques",
+    "description": ""
+  },
+  {
+    "name": "TDD",
+    "ring": "Assess",
+    "quadrant": "Techniques",
+    "description": ""
+  },
+  {
+    "name": "Domain Driven Design",
+    "ring": "Trial",
+    "quadrant": "Techniques",
+    "description": ""
+  },
+  {
+    "name": "Monolith Architecture",
+    "ring": "Hold",
+    "quadrant": "Techniques",
+    "description": ""
+  },
+  {
+    "name": "Cypress",
+    "ring": "Adopt",
+    "quadrant": "Languages and Frameworks",
+    "description": "Primary test automation framework where real browsers are used to write and run frontend integration and E2E tests for the whole applications."
+  },
+  {
+    "name": "Playwright",
+    "ring": "Trial",
+    "quadrant": "Languages and Frameworks",
+    "description": "Test automation framework with powerful features for web automation. Being evaluated for automation purposes general tasks and as an alternative for part of our visual regression tests."
+  },
+  {
+    "name": "CometML",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "description": "A machine learning experiment tracking and model and data monitoring tool."
+  },
+  {
+    "name": "Sagemaker",
+    "ring": "Hold",
+    "quadrant": "Tools",
+    "description": "A machine-learning platform currently used for model deployment, parameter tuning and notebook experimentation with heavy compute requirements."
+  },
+  {
+    "name": "FastAPI",
+    "ring": "Trial",
+    "quadrant": "Languages and Frameworks",
+    "description": "A modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints."
+  },
+  {
+    "name": "Kedro",
+    "ring": "Trial",
+    "quadrant": "Languages and Frameworks",
+    "description": "An open-source framework for maintainable data science code"
+  },
+  {
+    "name": "Poetry",
+    "ring": "Trial",
+    "quadrant": "Tools",
+    "description": "Poetry is a command-line tool that helps you manage your Python projects' dependencies and packages."
+  },
+  {
+    "name": "Jira",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": ""
+  },
+  {
+    "name": "Confluence",
+    "ring": "Adopt",
+    "quadrant": "Tools",
+    "description": ""
+  }
+]
