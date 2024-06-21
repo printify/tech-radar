@@ -52,3 +52,4 @@ The only necessary parts are next scripts being included:
 Other then that any html/css/scripting styling can be applied.
 
 ### Radar deployment
+None is needed. Bye default repo is setup to be served from `main` branch by static files. After PR being merge access [radar link](https://printify.github.io/architecture/technology-radar/index.html). There is an observation that looks like Github Pages needs some time to onvalidate previous version of page so result could be not immediate.
