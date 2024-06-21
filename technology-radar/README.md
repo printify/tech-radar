@@ -9,10 +9,10 @@ changes that we think our engineering teams should pay attention to and use in t
 
 ## Maintenance
 
-### Local devlopment
+### Local development
 Radar is setup in the most naive way possible - as static index.html based on [Zalando technical radar implementation](https://github.com/zalando/tech-radar/tree/master).
 
-In to start "local development" navigate to the radar subfolder (./technology-radar) and serve it with any webserver.
+In order to start "local development" navigate to the radar subfolder (./technology-radar) and serve it with any webserver.
 F.e. with python:
 ```
 python3 -m http.server 8000 --bind 127.0.0.1
@@ -23,7 +23,7 @@ Navigate to `http://localhost:8000/` and proceed to the editing.
 
 ### Radar content
 
-Radar content is defined in [data.json](./data.json) file. 
+Radar content is defined in the [data.json](./data.json) file. 
 From it you can control:
 * Radar Title - `title`
 * Radar publish date - `date`
@@ -39,7 +39,7 @@ From it you can control:
     * `blips.[].moved` - Previous Blip state enum. Supported values are: `IN`, `OUT`, `STILL`
     * `blips.[].link` - Link for blip details
 
-### Radar appearence
+### Radar appearance
 Radar is fully defined in 2 files:
 * [index.html](./index.html)
 * [radar.css](./radar.css)
@@ -49,7 +49,7 @@ The only necessary parts are next scripts being included:
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="http://zalando.github.io/tech-radar/release/radar-0.8.js"></script>
 ```
-Other then that any html/css/scripting styling can be applied.
+Other than that any html/css/scripting styling can be applied.
 
 ### Radar deployment
-None is needed. Bye default repo is setup to be served from `main` branch by static files. After PR being merge access [radar link](https://printify.github.io/architecture/technology-radar/index.html). There is an observation that looks like Github Pages needs some time to onvalidate previous version of page so result could be not immediate.
+None is needed. Bye default repo is setup to be served from the `main` branch by static files. After PR being merged access [radar link](https://printify.github.io/architecture/technology-radar/index.html). There is an observation that looks like Github Pages needs some time to invalidate the previous version of the page so the result could be not immediate.
