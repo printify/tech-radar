@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="description"
+        content="Printify Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams at Printify to pick the best technologies for new projects">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Printify Tech Radar</title>
+    <link rel="shortcut icon" href="https://printify.com/wp-content/themes/printify/assets/favicon-144.png">
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="http://zalando.github.io/tech-radar/release/radar-0.8.js"></script>
+
+    <link rel="stylesheet" href="radar.css">
+</head>
+
+<body>
+
+    <svg id="radar"></svg>
+
+    <script>
+        fetch('data.json').then(function (response) {
+            return response.json();
+        }).then(function (data) {
+            const MOVEMENT_VALUES = {
+                'in': 1,
+                'out': -1,
+                'still': 0
+            };
+            const quadrantIndexes = Object.fromEntries(data.quadrants.map((quadrant, index) => [quadrant.toLowerCase(), index]));
+            const ringIndexes = Object.fromEntries(data.rings.map((ring, index) => [ring.name.toLowerCase(), index]));
+            radar_visualization({
+                svg_id: "radar",
+                width: 1450,
+                height: 1000,
+                colors: {
+                    background: "#fff",
+                    grid: '#dddde0',
+                    inactive: "#ddd"
+                },
+                title: data.title,
+                date: data.date,
+                quadrants: [
+                    { name: data.quadrants[0] },
+                    { name: data.quadrants[1] },
+                    { name: data.quadrants[2] },
+                    { name: data.quadrants[3] },
+                ],
+                rings: [
+                    { name: data.rings[0].name, color: data.rings[0].color },
+                    { name: data.rings[1].name, color: data.rings[1].color },
+                    { name: data.rings[2].name, color: data.rings[2].color },
+                    { name: data.rings[3].name, color: data.rings[3].color },
+                ],
+                print_layout: true,
+                links_in_new_tabs: true,
+                entries: data.blips.map(function (blip) {
+                    return {
+                        label: blip.name,
+                        quadrant: quadrantIndexes[blip.quadrant.toLowerCase()],
+                        ring: ringIndexes[blip.ring.toLowerCase()],
+                        moved: MOVEMENT_VALUES[blip.moved.toLowerCase()],
+                        link: blip.link
+                    };
+                })
+            });
+            document.getElementById("1st-circle").innerHTML = data.rings[0].description;
+            document.getElementById("2nd-circle").innerHTML = data.rings[1].description;
+            document.getElementById("3rd-circle").innerHTML = data.rings[2].description;
+            document.getElementById("4th-circle").innerHTML = data.rings[3].description;
+        }).catch(function (error) {
+            console.error('Error:', error);
+        });
+    </script>
+
+    <table>
+        <tr>
+            <td>
+
+                <h3>What is the Tech Radar?</h3>
+
+                <p>
+                    The Printify Tech Radar is a list of technologies, complemented by an assessment result, called
+                    <em>ring assignment</em>. We use four rings with the following semantics:
+                </p>
+
+                <ul>
+                    <li id="1st-circle"></li>
+                    <li id="2nd-circle"></li>
+                    <li id="3rd-circle"></li>
+                    <li id="4th-circle"></li>
+                </ul>
+
+            </td>
+            <td>
+
+                <h3>What is the purpose?</h3>
+
+                <p>
+                    The Tech Radar is a tool to inspire and support Engineering teams at Printify to pick the best
+                    technologies for new projects; it provides a platform to share knowledge and experience in
+                    technologies, to reflect on technology decisions and continuously evolve our technology landscape.
+                    Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a>, our
+                    Tech Radar sets out the changes in technologies that are interesting in software development &mdash;
+                    changes that we think our engineering teams should pay attention to and use in their projects.
+                </p>
+
+                <h3>How do we maintain it?</h3>
+
+                <p>
+                    The Tech Radar is maintained by our <em>Architecture Council</em> &mdash; who facilitate and drive
+                    the technology selection discussions at Printify across the Engineering Community. Assignment of
+                    technologies to rings is the outcome of ring change proposals, which are discussed and voted on. The
+                    Tech Radar is open for contribution for all Engineering teams at Printify and depends on their
+                    active
+                    participation to share lessons learned, pitfalls, and contribute to good practices on using the
+                    technologies.<br />
+                </p>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
