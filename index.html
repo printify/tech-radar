@@ -22,9 +22,9 @@
         fetch('data.json').then(function (response) {
             return response.json();
         }).then(function (data) {
-            const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+            const prefersLightMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
 
-            const radarColors = prefersDarkMode
+            const radarColors = prefersLightMode
                 ? {
                     background: "#ffffff",  // Light background
                     grid: '#ddd',           // Light grid lines
