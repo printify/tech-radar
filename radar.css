@@ -1,23 +1,90 @@
+/* Default Light Mode Styles */
 body {
     font-family: 'Source Sans Pro', arial, helvetica, sans-serif;
     padding-bottom: 50px;
+    background-color: #ffffff; /* Light background */
+    color: #000000; /* Dark text */
 }
 
 h3 {
     margin-top: 50px;
+    color: #000000;
 }
 
 li {
     margin: 25px 50px 0 0;
+    color: #000000;
 }
 
 table {
     width: 1400px;
     margin: 0 50px 0 50px;
+    background-color: #ffffff;
+    color: #000000;
+    border-collapse: collapse;
 }
 
 td {
     width: 50%;
     vertical-align: top;
     padding-right: 60px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+svg#radar {
+    background-color: #ffffff;
+}
+
+text {
+    fill: #000000;
+}
+
+line {
+    stroke: #ddd;
+}
+
+circle {
+    stroke: #ccc;
+}
+
+/* Dark Mode Styles */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1d2125;
+        color: #e0e0e0;
+    }
+
+    h3 {
+        color: #ffffff;
+    }
+
+    li {
+        color: #e0e0e0;
+    }
+
+    table {
+        background-color: #1d2125;
+        color: #e0e0e0;
+    }
+
+    td {
+        border: 1px solid #444;
+    }
+
+    svg#radar {
+        background-color: #1d2125;
+    }
+
+    text {
+        fill: #e0e0e0;
+    }
+
+    line {
+        stroke: #444;
+    }
+
+    circle {
+        stroke: #555;
+    }
 }

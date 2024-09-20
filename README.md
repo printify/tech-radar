@@ -13,9 +13,9 @@ changes that we think our engineering teams should pay attention to and use in t
 
 Radar is setup in the most naive way possible - as static index.html based on [Zalando technical radar implementation](https://github.com/zalando/tech-radar/tree/master).
 
-In order to start "local development" navigate to the radar subfolder (./technology-radar) and serve it with any webserver.
-F.e. with python:
-```
+In order to start "local development" serve it with any webserver. F.e. with python:
+
+```sh
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
