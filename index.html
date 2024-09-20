@@ -22,18 +22,18 @@
         fetch('data.json').then(function (response) {
             return response.json();
         }).then(function (data) {
-            const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
 
             const radarColors = prefersDarkMode
                 ? {
-                    background: "#1d2125",  // Dark background
-                    grid: '#444',           // Darker grid lines
-                    inactive: "#777"        // Darker inactive blips
-                }
-                : {
                     background: "#ffffff",  // Light background
                     grid: '#ddd',           // Light grid lines
                     inactive: "#ddd"        // Light inactive blips
+                }
+                : {
+                    background: "#1d2125",  // Dark background
+                    grid: '#444',           // Darker grid lines
+                    inactive: "#777"        // Darker inactive blips
                 };
 
             const MOVEMENT_VALUES = {
