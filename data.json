@@ -1,6 +1,6 @@
 {
   "title": "Printify Tech Radar",
-  "date": "2024-06-21",
+  "date": "2026-06-01",
   "rings": [
     {
       "name": "Adopt",
@@ -47,7 +47,7 @@
     {
       "name": "Jenkins",
       "ring": "Hold",
-      "quadrant": "Platforms",
+      "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
     },
@@ -61,7 +61,7 @@
     {
       "name": "GitHub Actions",
       "ring": "Assess",
-      "quadrant": "Platforms",
+      "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
     },
@@ -87,9 +87,30 @@
       "link": ""
     },
     {
-      "name": "CircleCI",
-      "ring": "Trial",
+      "name": "Claude",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
+      "name": "Gemini",
+      "ring": "Hold",
+      "quadrant": "Tools",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
+      "name": "Cilium",
+      "ring": "Adopt",
       "quadrant": "Platforms",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
+      "name": "Figma",
+      "ring": "Adopt",
+      "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
     },
@@ -110,7 +131,7 @@
     {
       "name": "Filebeat",
       "ring": "Hold",
-      "quadrant": "Platforms",
+      "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
     },
@@ -172,6 +193,13 @@
     },
     {
       "name": "Optimizely",
+      "ring": "Hold",
+      "quadrant": "Platforms",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
+      "name": "Amplitude",
       "ring": "Adopt",
       "quadrant": "Platforms",
       "moved": "STILL",
@@ -227,9 +255,16 @@
       "link": ""
     },
     {
+      "name": "Newrelic",
+      "ring": "Hold",
+      "quadrant": "Tools",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
       "name": "Helm",
       "ring": "Adopt",
-      "quadrant": "Tools",
+      "quadrant": "Platforms",
       "moved": "STILL",
       "link": "http://helm.sh/"
     },
@@ -243,13 +278,13 @@
     {
       "name": "Traefik",
       "ring": "Adopt",
-      "quadrant": "Tools",
+      "quadrant": "Platforms",
       "moved": "STILL",
       "link": ""
     },
     {
       "name": "Keycloak",
-      "ring": "Trial",
+      "ring": "Hold",
       "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
@@ -270,7 +305,7 @@
     },
     {
       "name": "Sentry",
-      "ring": "Adopt",
+      "ring": "Hold",
       "quadrant": "Tools",
       "moved": "STILL",
       "link": "https://sentry.io/"
@@ -278,14 +313,14 @@
     {
       "name": "Terraform",
       "ring": "Adopt",
-      "quadrant": "Tools",
+      "quadrant": "Platforms",
       "moved": "STILL",
       "link": ""
     },
     {
       "name": "Terragrunt",
       "ring": "Adopt",
-      "quadrant": "Tools",
+      "quadrant": "Platforms",
       "moved": "STILL",
       "link": ""
     },
@@ -298,15 +333,15 @@
     },
     {
       "name": "Hashicorp Vault",
-      "ring": "Adopt",
-      "quadrant": "Tools",
+      "ring": "Assess",
+      "quadrant": "Platforms",
       "moved": "STILL",
       "link": ""
     },
     {
       "name": "K8s Operators",
       "ring": "Hold",
-      "quadrant": "Tools",
+      "quadrant": "Platforms",
       "moved": "STILL",
       "link": ""
     },
@@ -341,7 +376,7 @@
     {
       "name": "Storybook",
       "ring": "Adopt",
-      "quadrant": "Languages and Frameworks",
+      "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
     },
@@ -374,28 +409,7 @@
       "link": ""
     },
     {
-      "name": "Karma",
-      "ring": "Hold",
-      "quadrant": "Languages and Frameworks",
-      "moved": "STILL",
-      "link": ""
-    },
-    {
-      "name": "SCSS",
-      "ring": "Adopt",
-      "quadrant": "Languages and Frameworks",
-      "moved": "STILL",
-      "link": ""
-    },
-    {
       "name": "Symfony",
-      "ring": "Adopt",
-      "quadrant": "Languages and Frameworks",
-      "moved": "STILL",
-      "link": ""
-    },
-    {
-      "name": "Doctrine",
       "ring": "Adopt",
       "quadrant": "Languages and Frameworks",
       "moved": "STILL",
@@ -438,7 +452,7 @@
     },
     {
       "name": "Golang",
-      "ring": "Assess",
+      "ring": "Hold",
       "quadrant": "Languages and Frameworks",
       "moved": "STILL",
       "link": ""
@@ -465,6 +479,13 @@
       "link": ""
     },
     {
+      "name": "Yii2",
+      "ring": "Hold",
+      "quadrant": "Languages and Frameworks",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
       "name": "Backbone",
       "ring": "Hold",
       "quadrant": "Languages and Frameworks",
@@ -474,7 +495,7 @@
     {
       "name": "Jupyter Notebook",
       "ring": "Adopt",
-      "quadrant": "Languages and Frameworks",
+      "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
     },
@@ -549,6 +570,13 @@
       "link": ""
     },
     {
+      "name": "gRPC",
+      "ring": "Hold",
+      "quadrant": "Platforms",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
       "name": "Microservices",
       "ring": "Adopt",
       "quadrant": "Techniques",
@@ -571,14 +599,14 @@
     },
     {
       "name": "TDD",
-      "ring": "Assess",
+      "ring": "Adopt",
       "quadrant": "Techniques",
       "moved": "STILL",
       "link": ""
     },
     {
       "name": "Domain Driven Design",
-      "ring": "Trial",
+      "ring": "Adopt",
       "quadrant": "Techniques",
       "moved": "STILL",
       "link": ""
@@ -591,16 +619,37 @@
       "link": ""
     },
     {
+      "name": "Modular Monolith Architecture",
+      "ring": "Hold",
+      "quadrant": "Techniques",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
+      "name": "Contract Testing",
+      "ring": "Trial",
+      "quadrant": "Techniques",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
+      "name": "Hexagonal Architecture",
+      "ring": "Assess",
+      "quadrant": "Techniques",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
       "name": "Cypress",
       "ring": "Adopt",
-      "quadrant": "Languages and Frameworks",
+      "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
     },
     {
       "name": "Playwright",
       "ring": "Trial",
-      "quadrant": "Languages and Frameworks",
+      "quadrant": "Tools",
       "moved": "STILL",
       "link": ""
     },
