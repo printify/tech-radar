@@ -101,6 +101,13 @@
       "link": ""
     },
     {
+      "name": "Cursor",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
       "name": "Cilium",
       "ring": "Adopt",
       "quadrant": "Platforms",
@@ -402,7 +409,7 @@
       "link": ""
     },
     {
-      "name": "Jasmine",
+      "name": "Jest",
       "ring": "Adopt",
       "quadrant": "Languages and Frameworks",
       "moved": "STILL",
@@ -573,6 +580,13 @@
       "name": "gRPC",
       "ring": "Hold",
       "quadrant": "Platforms",
+      "moved": "STILL",
+      "link": ""
+    },
+    {
+      "name": "Nest.js",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
       "moved": "STILL",
       "link": ""
     },
