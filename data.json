@@ -1,6 +1,6 @@
 {
   "title": "Printify Tech Radar",
-  "date": "2026-06-01",
+  "date": "2026-09-02",
   "rings": [
     {
       "name": "Adopt",
@@ -60,9 +60,9 @@
     },
     {
       "name": "GitHub Actions",
-      "ring": "Assess",
+      "ring": "Adopt",
       "quadrant": "Tools",
-      "moved": "STILL",
+      "moved": "IN",
       "link": ""
     },
     {
@@ -214,9 +214,9 @@
     },
     {
       "name": "Heap",
-      "ring": "Adopt",
+      "ring": "Hold",
       "quadrant": "Platforms",
-      "moved": "STILL",
+      "moved": "OUT",
       "link": ""
     },
     {
@@ -473,9 +473,9 @@
     },
     {
       "name": "WebGPU",
-      "ring": "Adopt",
+      "ring": "Assess",
       "quadrant": "Languages and Frameworks",
-      "moved": "STILL",
+      "moved": "OUT",
       "link": ""
     },
     {
@@ -570,13 +570,6 @@
       "link": ""
     },
     {
-      "name": "Flutter",
-      "ring": "Trial",
-      "quadrant": "Languages and Frameworks",
-      "moved": "STILL",
-      "link": ""
-    },
-    {
       "name": "gRPC",
       "ring": "Hold",
       "quadrant": "Platforms",
@@ -598,10 +591,10 @@
       "link": ""
     },
     {
-      "name": "CQRS/ES",
-      "ring": "Trial",
+      "name": "CQRS",
+      "ring": "Adopt",
       "quadrant": "Techniques",
-      "moved": "STILL",
+      "moved": "IN",
       "link": ""
     },
     {
@@ -641,16 +634,16 @@
     },
     {
       "name": "Contract Testing",
-      "ring": "Trial",
+      "ring": "Assess",
       "quadrant": "Techniques",
-      "moved": "STILL",
+      "moved": "OUT",
       "link": ""
     },
     {
       "name": "Hexagonal Architecture",
-      "ring": "Assess",
+      "ring": "Adopt",
       "quadrant": "Techniques",
-      "moved": "STILL",
+      "moved": "IN",
       "link": ""
     },
     {
@@ -714,6 +707,454 @@
       "ring": "Adopt",
       "quadrant": "Tools",
       "moved": "STILL",
+      "link": ""
+    },
+    {
+      "name": "Amazon SQS",
+      "ring": "Adopt",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "PHPStan",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Deptrac",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "PHP_CodeSniffer",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "PHPUnit",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Doctrine ORM",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Symfony Messenger",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "TypeORM",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "npm",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Golden path boilerplates",
+      "ring": "Adopt",
+      "quadrant": "Techniques",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Shared platform libraries",
+      "ring": "Adopt",
+      "quadrant": "Techniques",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Repositories as code",
+      "ring": "Adopt",
+      "quadrant": "Techniques",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Event schema registry",
+      "ring": "Adopt",
+      "quadrant": "Techniques",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Event-Driven Architecture",
+      "ring": "Adopt",
+      "quadrant": "Techniques",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Atlantis",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "KEDA",
+      "ring": "Adopt",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Trivy",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Docker Compose",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Grafana Mimir",
+      "ring": "Adopt",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Grafana Loki",
+      "ring": "Adopt",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Grafana Alloy",
+      "ring": "Adopt",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Flyte",
+      "ring": "Adopt",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Debezium",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Angular Signals",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Testing Library",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Tailwind CSS",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "SwiftUI",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Jetpack Compose",
+      "ring": "Adopt",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Claude Code",
+      "ring": "Adopt",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Argo CD",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Rancher",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "arm64 / Graviton",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Semgrep",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Dependency Track",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "OpenTelemetry",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Grafana Tempo",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Backstage",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "EventCatalog",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "OpenFGA",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Amplitude Experiment",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Snowflake Cortex",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "RoadRunner",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Blackfire",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "k6",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Oxc",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Zod",
+      "ring": "Trial",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "React",
+      "ring": "Trial",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Next.js",
+      "ring": "Trial",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "PrimeNG",
+      "ring": "Trial",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "NgRx Component Store",
+      "ring": "Trial",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "MCP",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "OpenRouter",
+      "ring": "Trial",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Agentic code review",
+      "ring": "Trial",
+      "quadrant": "Techniques",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Claude plugins & skills",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Claude Cowork",
+      "ring": "Trial",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Vue 3",
+      "ring": "Assess",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Nuxt",
+      "ring": "Assess",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "n8n",
+      "ring": "Assess",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "CodeRabbit",
+      "ring": "Assess",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Zally",
+      "ring": "Assess",
+      "quadrant": "Tools",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Vue 2",
+      "ring": "Hold",
+      "quadrant": "Languages and Frameworks",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "Redshift",
+      "ring": "Hold",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "OpenShift",
+      "ring": "Hold",
+      "quadrant": "Platforms",
+      "moved": "IN",
+      "link": ""
+    },
+    {
+      "name": "GitLab",
+      "ring": "Hold",
+      "quadrant": "Tools",
+      "moved": "IN",
       "link": ""
     }
   ]
